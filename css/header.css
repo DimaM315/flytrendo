@@ -1,0 +1,56 @@
+body{
+	background: linear-gradient(107.51deg, rgba(39, 6, 55, 0.92) -1.19%, rgba(27, 1, 36, 0.94) 111.64%);
+}
+
+.header{
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	background-color: #220733;
+}
+
+.header_item{
+	position: absolute;
+	width: 120px;
+	height: 29px;
+	
+	top: 48px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #F7F7F7;
+	
+	cursor: pointer;
+}
+
+.header_main{
+	width: 101px;
+	left: 306px;
+}
+
+.header_about_us{
+	width: 71px;
+	left: 506px;
+}
+
+.header_calc_time{
+	width: 228px;
+	left: 677px;
+}
+
+.header_contacts{
+	width: 120px;
+	left: 1008px;
+}
+
+.header_exit{
+	width: 62px;
+	left: 1230px;
+}

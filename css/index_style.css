@@ -1,0 +1,248 @@
+
+/* Подчёркивает раздел меню, той страницы на которой находится пользователь */
+.under_line{
+	position: absolute;
+	width: 62px;
+	height: 0px;
+	left: 315px;
+	top: 77px;
+
+	border: 2px solid #FFFFFF;
+}
+
+
+
+.content{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+}
+
+.btn{
+	position: absolute;
+	
+	height: 65px;
+	top: 495px;
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 27px;
+	line-height: 136.4%;
+	/* identical to box height, or 37px */
+
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	color: #FFFFFF;
+}
+
+.btn_calc_time{
+	width: 300px;
+	left: 215px;
+	
+	background: linear-gradient(263.61deg, #FF003D -19.39%, #FF598B 128.35%);
+	box-shadow: 0px 4px 37px rgba(255, 39, 96, 0.39);
+}
+
+.btn_how_it_work{
+	width: 312px;
+	left: 531px;
+
+	background: linear-gradient(106.63deg, #9B1CFF -24.21%, #DB00FF 107.14%);
+	box-shadow: 0px 4px 32px rgba(189, 14, 255, 0.26);
+
+}
+
+
+
+.text_description{
+	color:white;
+	position: absolute;
+	width: 601px;
+	height: 137px;
+	left: 215px;
+	top: 357px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 136.4%;
+	/* or 27px */
+
+	letter-spacing: 0.02em;
+}
+
+.text_title{
+	color: white;
+	position: absolute;
+	width: 312px;
+	height: 72px;
+	left: 215px;
+	top: 250px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 59px;
+	line-height: 72px;
+	/* identical to box height */
+	margin-bottom:10px;
+
+
+	text-shadow: 0px 4px 35px rgba(0, 0, 0, 0.19);
+}
+.content{
+	position:absolute;
+}
+.behind_bg{
+	position:absolute;
+	width: 100%;
+	height: 850px;
+	top: 100px;
+	
+	background-image: url('../assets/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.content img{
+	width: 778px;
+	height: 695px;
+	margin-left: 700px;
+}
+
+
+.rect_transition{
+	position: absolute;
+	width: 85%;
+	height: 66px;
+	left: -20px;
+	top: 940px;
+
+	background: rgba(110, 49, 139, 0.95);
+}
+
+
+.suggestion_reg{
+	position:absolute;
+	width: 100%;
+	height: 500px;
+	top: 1000px;
+	
+	background-image: url('../assets/img_stand.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: white;
+}
+.suggestion_reg h1{
+	position: absolute;
+	width: 961px;
+	height: 127px;
+	left: 475px;
+	top: 135px;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 68px;
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 39px rgba(0, 0, 0, 0.62);
+}
+
+.suggestion_reg button{
+	position: absolute;
+	width: 370px;
+	height: 57px;
+	left: 475px;
+	top: 284px;
+
+	background: linear-gradient(97.82deg, #FF0000 -111.67%, #FC8585 159.56%);
+	box-shadow: 0px 4px 40px rgba(254, 78, 78, 0.4);
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 41px;
+	line-height: 50px;
+	/* identical to box height */
+
+
+	color: #FFFFFF;
+
+	text-shadow: 0px 4px 33px rgba(255, 255, 255, 0.33);
+}
+.suggestion_reg img{
+	position: absolute;
+	width: 217px;
+	height: 217px;
+	left: 226px;
+	top: 124px;
+
+	background: #FFFFFF;
+}
+
+
+
+.footer{
+	position: absolute;
+	width: 100%;
+	height: 267px;
+	left: 0px;
+	top: 1477px;
+
+	background: linear-gradient(94.8deg, #610083 0.26%, #700083 110.53%);
+	box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.28);
+}
+.footer .text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 39px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #E9E9E9;
+}
+.footer .text_company{
+	position: absolute;
+	width: 236px;
+	height: 39px;
+	left: 40%;
+	bottom: 32px;
+}
+.footer .text_contacts{
+	position: absolute;
+	width: 257px;
+	height: 39px;
+	right: 229px;
+	top: 60px;
+
+}
+.footer .share{
+	position: absolute;
+	width: 313px;
+	height: 39px;
+	left: 130px;
+	top: 32px;
+
+}
+.footer .share_social{
+	padding-left: 88px;
+}
+.footer .share_social img{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.footer .share_social img:first-child{
+	position: absolute;
+	top: 35px;
+	left: 0px;
+}
